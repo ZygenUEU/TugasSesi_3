@@ -1,9 +1,14 @@
-matriks = [
-    [3, 2],
-    [1, 6],
+#Penjumlahan Matriks
+matriks_1 = [
+    [2, 5],
+    [1, 4],
 ]
 
-for x in range(0, len(matriks)):
-    for y in range(0, len(matriks[0])):
-        print (matriks[x][y], end=' '),
+matriks_2 = [
+    [2, 4],
+    [8, 2],
+]
+for x in range(0, len(matriks_1)):
+    for y in range(0, len(matriks_2[0])):
+        print (matriks_1[x][y] + matriks_2[x][y], end=' '),
     print
